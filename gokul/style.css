@@ -1,0 +1,218 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --blue: #3b82f6;
+  --red: #ef4444;
+  --green: #16a34a;
+  --yellow: #eab308;
+  --white: #fafaf8;
+  --dark: #292524;
+}
+body {
+  font-family: "Sono, sans-serif";
+  background-color: var(--dark);
+  color: white;
+  padding: 48px 64px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  font-family: "Coiny", serif;
+  line-height: 1;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.btn {
+  font-family: "Coiny", serif;
+  border-radius: 100px;
+  background-image: linear-gradient(135deg, #3b82f6, #ef4444, #16a34a, #eab308);
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 15px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  transform: scale(110%) rotate(-2deg);
+}
+.from-fact {
+  background-color: #44403c;
+  display: flex;
+  padding: 15px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 16px;
+  margin: 30px 0px;
+}
+.from-fact input,
+.from-fact select {
+  background-color: #78716c;
+  border-radius: 100px;
+  font-family: inherit;
+  color: inherit;
+  width: 200px;
+  padding: 16px;
+  border: none;
+}
+.from-fact input::placeholder {
+  color: #a49e9a;
+  font-size: 15px;
+}
+.from-fact input:first-child {
+  flex-grow: 1;
+}
+/* .from-fact input:nth-child() */
+
+.container {
+  display: flex;
+}
+
+.hero1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Coiny", serif;
+  border-radius: 100px;
+  background-image: linear-gradient(135deg, #3b82f6, #ef4444, #16a34a, #eab308);
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 15px 15px;
+  margin: 30px;
+  width: 350px;
+}
+.hero2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Coiny", serif;
+  border-radius: 100px;
+  background-color: #3b82f6;
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 15px 15px;
+  margin: 30px;
+  width: 350px;
+}
+.hero3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Coiny", serif;
+  border-radius: 100px;
+  background-color: #16a34a;
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 15px 15px;
+  margin: 30px;
+  width: 350px;
+}
+
+.right1,
+.right2 {
+  display: flex;
+  align-items: center;
+}
+
+.right1 {
+  padding: 35px 15px;
+  margin: 30px 100px;
+  border-radius: 10px;
+  height: 100px;
+  background-color: #44403c;
+}
+
+.right2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 20px;
+  margin: 30px 100px;
+  border-radius: 10px;
+  height: 150px;
+  width: 1270px;
+  background-color: #44403c;
+}
+.main0 {
+  word-spacing: 8px;
+  font-size: 20px;
+}
+.main2 {
+  word-spacing: 10px;
+  font-size: 22px;
+}
+
+.rgith,
+.right1,
+.main {
+  display: flex;
+  gap: 10px;
+}
+
+.item {
+  width: 55px;
+  padding: 8px 5px;
+  border-radius: 20px;
+  background-color: #78716c;
+}
+
+.rgith,
+.right1,
+.btn1 {
+  border-radius: 15px;
+  gap: 455px;
+}
+.btn1 {
+  height: 35px;
+  width: 190px;
+  background-color: #3b82f6;
+  font-size: 20px;
+  color: #fafaf8;
+  border: none;
+}
+
+.rgith,
+.right2,
+.main2,
+.main3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn2 {
+  font-size: 20px;
+  color: #fafaf8;
+  height: 30px;
+  width: 150px;
+  background-color: #eab308;
+  border-radius: 15px;
+  gap: 6px;
+  border: none;
+}
+
+@media (max-width: 1000px) {
+  .from-fact {
+    flex-direction: column;
+  }
+  .from-fact input,
+  .from-fact select,
+  .from-fact button {
+    width: 100%;
+  }
+}
