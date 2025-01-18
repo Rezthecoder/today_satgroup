@@ -6,3 +6,4 @@ Amancdy
 Gokul
 sanu
 Niranjan
+today is saturday all users are added
