@@ -1,0 +1,126 @@
+:root {
+  --blue: #3b82f6;
+  --red: #ef4444;
+  --green: #16a34a;
+  --yellow: #eab308;
+  --white: #fafaf8;
+  --dark: #292524;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--white);
+  font-family: "Sono", sans-serif;
+  padding: 50px 65px;
+}
+
+h1 {
+  font-family: "Coiny";
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: space-between;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  font-family: Coiny;
+  text-transform: uppercase;
+  color: white;
+  background-image: linear-gradient(
+    135deg,
+    var(--blue),
+    var(--red),
+    var(--green),
+    var(--yellow)
+  );
+  height: 40px;
+  border: none;
+  border-radius: 100px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  transform: scale(110%) rotate(-2deg);
+}
+
+.container {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(4, 100px, 50px);
+  grid-template-rows: repeat(4, 100px, 50px);
+  gap: 20px;
+}
+.form {
+  background-color: gray;
+  padding: 10px 40px;
+  height: 70px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.form input,
+.form select {
+  background-color: rgb(197, 191, 191);
+  border-radius: 15px;
+  height: 40px;
+  width: 300px;
+  font-family: inherit;
+  border: none;
+}
+.form input::placeholder {
+  color: gainsboro;
+}
+.form input:nth-child(1) {
+  flex-grow: 1;
+}
+@media (max-width: 1000px) {
+  .form {
+    flex-direction: column;
+  }
+}
+.box {
+  background-color: gray;
+  height: 70px;
+  border-radius: 15px;
+  display: flex;
+}
+select {
+  background-color: rgb(224, 215, 215);
+  border-radius: 10px;
+  font-family: "coiny";
+  height: 20px;
+  width: 200px;
+}
+#side {
+  grid-column: 1/2;
+  width: 100px;
+  height: 100px;
+}
+.item {
+  height: 20px;
+  width: 50px;
+  background-color: grey;
+  border-radius: 10px;
+}
+span {
+  color: rgb(206, 204, 204);
+}
+button {
+  height: 20px;
+  background-color: #eab308;
+}
