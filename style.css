@@ -11,6 +11,14 @@
 
 }
 
+
+/* first option form lai 100% width diney */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 body {
     background-color: var(--dark);
     color: var(--white);
@@ -69,7 +77,6 @@ h1 {
     align-items: center;
     gap: 16px;
     margin-bottom: 40px;
-
     border-radius: 16px;
     /* flex-direction: column; */
 
@@ -108,4 +115,15 @@ h1 {
     .form-fact {
         flex-direction: column;
     }
+
+    .form-fact {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .form-fact input,
+    .form-fact select {
+        width: auto;
+    }
+
 }
