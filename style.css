@@ -160,3 +160,12 @@ a {
 a:hover {
   color: #3b82f6;
 }
+.item {
+  gap: 5px;
+  background-color: #78716c;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 25px;
+}
