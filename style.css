@@ -155,6 +155,7 @@ ul {
 }
 a {
   color: #78716c;
+  text-decoration: none;
 }
 a:hover {
   color: #3b82f6;
