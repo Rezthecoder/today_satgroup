@@ -3,6 +3,10 @@
 
 // 2>branch ma change garna command
 /* git status
-git branch amanbranch */
+git switch amanbranch */
 
-// 3>
+// 3>branch banaune command
+/* git branch filename */
+
+// 4> branch kati ota xa herne command
+/* git bra */
