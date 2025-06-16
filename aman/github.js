@@ -13,3 +13,9 @@ git switch amanbranch */
 
 // 5>main ma vako file same to same branch file ma copy garda
  /* git reset --hard origin/main */
+
+// 6>> branch file merge into main file
+/*  push the all code of branch file
+    first go into main file then
+    git merge branchname
+*/
