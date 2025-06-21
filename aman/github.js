@@ -4,6 +4,7 @@
 // 2>branch ma change garna command
 /* git status
 git switch amanbranch */
+// git switch main ==> main ma jan parda
 
 // 3>branch banaune command
 /* git branch filename */
